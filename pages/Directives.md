@@ -1,0 +1,27 @@
+- Directives in Angular are powerful tools that extend the capabilities of HTML elements and attributes within your application's templates. They provide a way to add custom behavior, manipulate the DOM, and modify the appearance of your components.
+-
+- Types of Directives:
+- **Structural Directives:**
+	- Alter the DOM structure (layout) by adding, removing, or manipulating elements based on conditions or loops.
+	- Examples:
+		- `*ngIf`: Conditionally shows or hides an element based on a boolean expression.
+		- `*ngFor`: Repeats an HTML template for each item in a list or array.
+		- `*ngSwitch`: Switches between alternative content sections based on a value.
+- **Attribute Directives:**
+	- Modify the appearance or behavior of an element by changing its attributes, styles, or classes.
+	- Examples:
+		- `[ngClass]`: Dynamically adds or removes CSS classes based on an expression.
+		- `[ngStyle]`: Dynamically sets styles on an element based on a style object.
+		- `[attr.*]`: Sets arbitrary attributes on an element based on component properties.
+- **Component Directives:**
+	- A special type of directive that defines a reusable component. They are essentially directives with a template associated with them using the `@Component` decorator.
+- **Custom Directives:**
+	- You can create your own custom directives to extend Angular's functionality and encapsulate reusable behavior.
+	- A custom directive requires:
+		- A TypeScript class decorated with `@Directive`.
+		- Specifying the selector (element, attribute, or comment) where the directive is used.
+-
+- **Benefits of Using Directives:**
+	- **Code Reusability:**  Directives promote code reusability by encapsulating common logic and behavior that can be applied across different components.
+	- **DOM Manipulation:**  They provide a structured way to manipulate the DOM based on your application logic, making your templates more dynamic.
+	- **Enhanced UI:**  Directives allow you to create interactive and dynamic user interfaces by responding to user interactions and data changes.

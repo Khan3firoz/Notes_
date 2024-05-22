@@ -1,0 +1,10 @@
+- Services in Angular are specialized classes that handle tasks that are shared across multiple components in your application. They promote separation of concerns, code reusability, and improved application architecture.
+- Services can:
+	- Manage data and share it between components.
+	- Perform operations like fetching data from an API, interacting with local storage, or logging information.
+	- Provide utility functions that can be used throughout the application.
+- **Benefits of Using Services:**
+	- **Separation of Concerns:** Services isolate application logic from components, making components more focused on UI and data presentation.
+	- **Code Reusability:** Services can be injected and used by multiple components, reducing code duplication and promoting maintainability.
+	- **Dependency Injection:** Angular's dependency injection system allows you to manage dependencies within services, making your code more testable and flexible.
+	- **Improved Architecture:** Services help in structuring your application in a modular way, promoting better organization and scalability.

@@ -1,0 +1,41 @@
+-
+- (transitionend): Triggers when a CSS transition animation ends.
+- (animationstart): Triggers when a CSS animation starts.
+- (animationend): Triggers when a CSS animation ends.
+- (resize): Triggers when the window is resized.
+- (scroll): Triggers when the window or an element with overflow is scrolled.
+- (orientationchange): Triggers when the device orientation changes (e.g., from portrait to landscape).
+- (touchstart): Triggers when a touch starts on the element.
+- (touchend): Triggers when a touch ends on the element.
+- (touchmove): Triggers when a touch moves on the element.
+- (touchcancel): Triggers when a touch is canceled (e.g., due to a scroll).
+- (drag): Triggers when an element is dragged (fires continuously while dragging).
+- (dragstart): Triggers when the dragging of an element starts.
+- (dragend): Triggers when the dragging of an element ends.
+- (dragover): Triggers when an element is dragged over another element.
+- (dragleave): Triggers when an element is dragged out of another element.
+- (drop): Triggers when an element is dropped on another element (usually used for handling dropped files).
+- (cut): Triggers when the user cuts content from the element (Ctrl+X or Cmd+X).
+- (copy): Triggers when the user copies content from the element (Ctrl+C or Cmd+C).
+- (paste): Triggers when the user pastes content into the element (Ctrl+V or Cmd+V).
+- (keypress): Triggers when a character key is pressed (fires after keydown).
+- (mousemove): Triggers when the mouse pointer moves within the element.
+- (mouseover)
+- (mouseout)
+- (change)
+- (ngModelChange)
+- (input)
+- (dblclick)
+- (mouseup)
+- (mousedown)
+- (keyup)
+- (keydown)
+- (focus)
+- (focusout)
+- (focusin)
+- (blur)
+- **(focus)**: Triggers when the element receives focus. Used for handling focus-related events, such as changing styles or displaying additional information when an element is focused.
+- **(focusout)**: Triggers when the element loses focus. Often used to perform cleanup tasks or validation when an element loses focus.
+- **(focusin)**: Triggers when the element receives focus. Similar to `(focus)`, but bubbles up through the DOM tree.
+- **(blur)**: Triggers when the element loses focus. Similar to `(focusout)`, but bubbles up through the DOM tree.
+-

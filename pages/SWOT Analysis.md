@@ -1,0 +1,47 @@
+- #ProductManagement
+- SWOT analysis helps in understanding the internal and external factors that can impact the success of a project, business, or individual's career.
+- ## Strengths
+  heading:: 2
+	- **Technical Expertise**
+		- Proficient in Angular, JavaScript, TypeScript, HTML, CSS, SCSS.
+		- Experienced in automation testing and RESTful API Integration (Swagger).
+		- Skilled in detecting vulnerabilities and code smells using SonarQube.
+	- **Experience**
+		- 2.5 years of hands-on experience in front-end development.
+		- Developed and maintained efficient, reusable, and reliable code.
+		- Fixed critical production issues promptly.
+	- **Mentorship**
+		- Mentored junior developers, fostering collaboration and growth.
+	- **Quality Focus**
+		- Committed to code quality and continuous improvement.
+		- Conducted thorough code reviews and improvements.
+- ## Weaknesses
+  heading:: 2
+	- **Niche Skillset**
+		- Predominantly focused on front-end technologies; limited exposure to back-end development.
+	- **Over-reliance on Familiar Tools**
+		- Heavy reliance on specific tools and technologies might limit adaptability to new environments or frameworks.
+	- **Limited Project Diversity**
+		- Experience may be concentrated in specific types of projects, potentially limiting versatility.
+- ## Opportunities
+  heading:: 2
+	- **Technological Advancements**
+		- Rapid advancements in web technologies provide opportunities to learn and implement new frameworks and tools.
+	- **Professional Development**
+		- Potential to further specialize or expand skillsets into full-stack development.
+		- Opportunities to attend workshops, webinars, and courses for continuous learning.
+	- **Industry Growth**
+		- Increasing demand for skilled front-end developers in various industries.
+		- Potential to work on diverse projects and with international teams.
+	- **Networking**
+		- Opportunities to connect with other professionals and organizations to explore new career prospects and collaborations.
+- ## Threats
+  heading:: 2
+	- **Technological Changes**
+		- Rapid changes in technology could make current skills obsolete if not continuously updated.
+	- **Market Competition**
+		- High competition in the front-end development field may require continuous upskilling to remain competitive.
+	- **Economic Factors**
+		- Economic downturns or changes in industry demand could affect job security and availability.
+	- **Dependency on Tools**
+		- Over-dependence on specific tools and technologies might pose a risk if those tools become outdated or unsupported.

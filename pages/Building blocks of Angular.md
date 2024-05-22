@@ -1,0 +1,17 @@
+- #Angular
+- #### Angular applications are built from a combination of several key elements that work together. These building blocks can be broadly categorized as follows:
+	- *** [[Modules]] :*** These are like containers that organize an Angular application. They group components, directives, services, and other building blocks into logical units.  Think of them as folders in your file system, where you categorize related files.
+	-
+	- *** [[Component]] :*** These are the fundamental building blocks of the user interface in Angular. They encapsulate a view (template), data (properties), and logic (methods) into reusable UI elements.  Components are like Lego bricks that you can assemble to create complex UIs.
+	-
+	- *** [[Templates]] :***  Templates define the view of a component using HTML-like syntax. They specify how the component will be displayed on the screen and often include placeholders for data that can be dynamically updated.
+	-
+	- *** [[Metadata]] :***  Angular uses metadata to understand how to process components, directives, and services. This metadata is provided using decorators, which are special annotations added to the code.
+	-
+	- *** [[Data Binding]] :*** This is the mechanism that keeps the component's view and data synchronized.  Changes in the data are automatically reflected in the view, and user interactions in the view can update the data. Data binding makes your UI dynamic and responsive.
+	-
+	- *** [[Directives]] :*** These are special instructions that manipulate the DOM (Document Object Model) based on certain conditions. They extend HTML attributes with new functionalities, allowing you to add custom behaviors to your components.
+	-
+	- *** [[Services]] :***  Services are reusable classes that handle background tasks and share data across components. They are used to encapsulate application logic that is not directly related to the UI.  Think of services as helpers that provide functionality to your components.
+	-
+	- *** [[Dependency Injection]] :*** This is a design pattern that allows components to request the services they need.  Angular manages the creation and lifecycle of these services, making your code more modular and easier to test.

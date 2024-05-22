@@ -1,0 +1,42 @@
+- #ProductManagement
+-
+- An empathy map is a collaborative visualization used to articulate what we know about a particular type of user. It helps to create a shared understanding of user needs and aids in decision-making processes. Typically, an empathy map is divided into several quadrants, each representing different aspects of the user's experience and perspective.
+-
+- Here's a structure for creating an empathy map:
+- ### 1.  **Quadrants of an Empathy Map:**
+	- #### a.  **Says:**
+		- What the user says out loud in an interview or during usability testing.
+		- Quotes from the user.
+		- Example: "I find it difficult to navigate through the app."
+	- #### b.  **Thinks:**
+		- What the user is thinking throughout the experience.
+		- Often inferred from what they say or do.
+		- Example: "I wish there was a search function here."
+	- #### c.  **Does:**
+		- The actions the user takes.
+		- Behaviors and activities observed.
+		- Example: Frequently clicking on the help button.
+	- #### d.  **Feels:**
+		- The emotions the user experiences.
+		- How the user feels about the experiences.
+		- Example: Frustrated when the app crashes.
+- ### 2.  **Additional Considerations:**
+	- #### a.  **Pains:**
+		- Challenges and pain points the user faces.
+		- Obstacles that prevent them from achieving their goals.
+		- Example: "It's hard to find the settings page."
+	- #### b.  **Gains:**
+		- The benefits the user gains.
+		- The positive outcomes they seek or achieve.
+		- Example: "When the app works, it saves me a lot of time."
+-
+- LATER
+- ### Steps to Create an Empathy Map:
+	- **Identify the User:**
+		- Define the user or persona the empathy map is for. This could be a specific user segment or a broader target audience.
+	- **Gather Data:**
+		- Collect qualitative data from user interviews, surveys, usability tests, and other research methods.
+	- **Fill in the Quadrants:**
+		- Organize the data into the Says, Thinks, Does, and Feels quadrants. Be sure to use direct quotes for the Says section and interpretive insights for the Thinks section.
+	- **Identify Pains and Gains:**
+		- List out the user’s pain points and the gains they experience or desire.

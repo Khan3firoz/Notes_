@@ -1,0 +1,25 @@
+- #Angular
+- Angular projects typically have a structured file layout that serves various purposes and helps maintain consistency across development teams. Here's a breakdown of the key files and directories and their uses:
+- ## .gitignore
+	- Maintains consistent coding styles for multiple developers working on the same project.
+	- Standard file used by Git to identify files and folders to be ignored while committing the code.
+-
+- ## src/
+	- Angular application starts executing from this directory.
+	- Contains the source code for the Angular application, including components, services, modules, styles, and assets.
+-
+- ## node_modules/
+	- Provides version information for all packages installed into node_modules.
+	- Configures npm package dependencies that are available to all projects in the workspace.
+-
+- ## tsconfig.json
+	- Application-specific TypeScript configuration, including TypeScript and Angular template compiler options.
+-
+- ## tsconfig.spec.json
+	- TypeScript configuration for the application tests.
+-
+- ## tslint.json
+	- Application-specific TSLint configuration.
+	- TSLint is an extensible static analysis tool that checks TypeScript code for readability, maintainability, and functionality errors.
+	  
+	  The structured file layout in Angular projects helps in organizing code, managing dependencies, and ensuring consistency in coding standards and practices across the development team.

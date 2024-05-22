@@ -1,0 +1,35 @@
+- #WebDev
+- The Model-View-Controller (MVC) pattern is a software architectural design pattern used primarily for developing user interfaces that divides an application into three interconnected components: the Model, the View, and the Controller. Each of these components serves a specific role and interacts with the others to achieve separation of concerns and maintainability.
+- ## Components of MVC:
+- ### 1. Model:
+	- The Model represents the application's data and business logic. It encapsulates the data and behavior of the application, providing an interface to interact with the data.
+	- It is responsible for managing the state of the application and responding to requests for information or updates.
+	- Examples of Models include classes representing database entities, data structures, or any other form of data storage.
+- #
+- ## 2. View:
+	- The View is responsible for rendering the user interface based on the data provided by the Model. It presents the data to the user in a readable format.
+		- Views are passive components that display information to the user and respond to user input by sending requests to the Controller.
+		- Examples of Views include HTML pages, UI components, or any other presentation layer elements.
+-
+- ### 3. Controller:
+	- The Controller acts as an intermediary between the Model and the View. It receives input from the user via the View, processes it (usually by updating the Model), and updates the View accordingly.
+	- Controllers handle user interactions, such as mouse clicks or keyboard inputs, and translate them into actions to be performed by the Model.
+	- They contain application logic related to handling user input and updating the state of the application.
+	- Examples of Controllers include event handlers, route handlers, or any other logic responsible for coordinating between the Model and the View.
+-
+- ## Flow of Data and Control:
+	- 1. User interacts with the View by triggering an event (e.g., clicking a button).
+	- 2. The View sends the user input to the Controller.
+	- 3. The Controller receives the input, processes it, and updates the Model if necessary.
+	- 4. The Model updates its state based on the Controller's actions.
+	- 5. The Model notifies the View of any changes in the data.
+	- 6. The View retrieves updated data from the Model and re-renders the user interface.
+	- 7. The updated View is displayed to the user.
+	- 8. The cycle repeats as the user interacts with the application.
+-
+- ## Benefits of MVC:
+	- **Separation of Concerns**: MVC separates the concerns of an application into distinct components, making it easier to manage and maintain each part independently.
+	- **Modularity**: Each component (Model, View, Controller) can be developed, tested, and modified separately without affecting the other parts of the application.
+	- **Reusability**: Components can be reused across different parts of the application or in other projects, promoting code reuse and reducing redundancy.
+	- **Scalability**: MVC supports the development of scalable applications by providing a clear structure and organization for code.
+	- **Testability**: The separation of concerns in MVC makes it easier to write unit tests for individual components, ensuring better code quality and reliability.

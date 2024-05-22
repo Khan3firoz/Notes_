@@ -1,0 +1,45 @@
+- In Angular, modules (also known as NgModules) are the fundamental building blocks for organizing your application. They serve several purposes:
+	- **1. Organizing Code:** Modules group components, directives, pipes, and services into cohesive units based on functionality or feature areas. This promotes code organization and separation of concerns, making your application easier to understand and maintain.
+	-
+	- **2. Reusability:**  Modules can be imported and reused throughout your application, promoting code reusability and reducing redundancy. Imagine having a module for user login functionality. You can import this module into any component that needs to handle login, instead of rewriting the login logic everywhere
+	-
+	- **3. Dependency Injection:** Modules specify the services that components within the module require. Angular uses dependency injection to provide these services to components, making your code more modular and easier to test.  Components don't need to worry about creating the services themselves, they just declare what they need, and Angular handles the rest.
+-
+- **Types of Angular Modules:**
+- **Root Module (AppModule):**
+	- **Purpose:** The foundation of your application.
+	- **Content:**
+		- Bootstraps the application by specifying the root component.
+		- Imports core and feature modules.
+	- **Benefits:**
+		- Defines the starting point of your application's view hierarchy.
+		- Provides a central location for application-wide configurations.
+- **Feature Modules:**
+	- **Purpose:** Represent specific functionalities or feature areas.
+	- **Content:**  Group components, directives, pipes, and services related to that feature.
+	- **Benefits:**
+		- Promote modularity and code organization.
+		- Enable lazy loading for improved performance.
+		- Enhance code reusability within the application.
+- **Core Module (Optional):**
+	- **Purpose:** Houses application-wide functionalities.
+	- **Content:**
+		- Services, interceptors, configuration settings, utility functions, and components used throughout the application.
+	- **Benefits:**
+		- Centralized location for core functionalities.
+		- Ensures singleton instances of critical services.
+		- Improves code reusability for core functionalities.
+- **Shared Module:**
+	- **Purpose:** Promotes code reusability across feature modules.
+	- **Content:**
+		- Common components, generic directives, utility pipes, and (sometimes) shared services.
+	- **Benefits:**
+		- Reduces code duplication.
+		- Improves code organization and consistency.
+		- Enforces consistent UI and behavior across features.
+-
+- **In essence/short:**
+	- **Root Module** lays the foundation.
+	- **Feature Modules** are the building blocks for specific functionalities.
+	- **Core Module** (optional) provides core functionalities.
+	- **Shared Module** promotes reusability of common elements across features.

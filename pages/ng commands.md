@@ -1,0 +1,116 @@
+- #Angular
+- `ng new`: Creates a new Angular application.
+- `ng serve`: Builds and serves the Angular application locally for development.
+- `ng build`: Builds the Angular application for production.
+- `ng generate component`: Generates a new Angular component.
+- `ng generate directive`: Generates a new Angular directive.
+- `ng generate pipe`: Generates a new Angular pipe.
+- `ng generate service`: Generates a new Angular service.
+- `ng generate module`: Generates a new Angular module.
+- `ng generate guard`: Generates a new Angular route guard.
+- `ng generate class`: Generates a new Angular class.
+- `ng generate interface`: Generates a new Angular interface.
+- `ng generate enum`: Generates a new Angular enum.
+- `ng generate module`: Generates a new Angular module.
+- `ng generate library`: Generates a new Angular library project.
+- `ng generate application`: Generates a new Angular application within a workspace.
+- `ng generate application`: Generates a new Angular application within a workspace.
+- `ng generate application`: Generates a new Angular application within a workspace.
+- `ng generate application`: Generates a new Angular application within a workspace.
+- `ng generate application`: Generates a new Angular application within a workspace.
+- `ng generate application`: Generates a new Angular application within a workspace.
+- `ng test`: Runs unit tests using Karma.
+- `ng e2e`: Runs end-to-end tests using Protractor.
+- `ng lint`: Lints the Angular project files using TSLint or ESLint.
+- `ng update`: Updates the Angular dependencies to the latest versions.
+- `ng add`: Adds new capabilities to the Angular application, such as additional libraries or tools.
+- `ng deploy`: Deploys the Angular application to a hosting provider.
+- `ng config`: Sets or gets Angular configuration values.
+- `ng get`: Gets values from the Angular configuration.
+- `ng set`: Sets values in the Angular configuration.
+- `ng doc`: Opens the Angular documentation in the default browser.
+- `ng version`: Displays Angular CLI version information.
+- `ng help`: Displays help information for Angular CLI commands.
+- `ng update @angular/cli`: Updates the Angular CLI to the latest version.
+- `ng update @angular/core`: Updates the Angular core packages to the latest version.
+- `ng update --all`: Updates all Angular dependencies to their latest versions.
+- `ng add @angular/material`: Adds Angular Material to the project.
+- `ng add @ngrx/store`: Adds NgRx Store to the project.
+- `ng add @angular/pwa`: Adds Progressive Web App (PWA) support to the project.
+- `ng add @angular/fire`: Adds AngularFire to the project for Firebase integration.
+- `ng add @angular/pwa`: Adds Progressive Web App (PWA) support to the project.
+- `ng add @angular/material`: Adds Angular Material to the project.
+- `ng add @angular/elements`: Adds Angular Elements to the project.
+- `ng build --prod`: Builds the Angular application for production with optimizations.
+- `ng build --aot`: Builds the Angular application using Ahead-of-Time compilation.
+- `ng build --watch`: Builds the Angular application and watches for changes.
+- `ng serve --open`: Builds and serves the Angular application and opens it in the default browser.
+- `ng serve --port`: Specifies the port to use when serving the Angular application.
+- `ng serve --prod`: Builds and serves the Angular application in production mode.
+- `ng serve --aot`: Builds and serves the Angular application using Ahead-of-Time compilation.
+- `ng config cli.packageManager`: Sets the package manager to use for installing dependencies.
+- `ng config cli.defaultCollection`: Sets the default schematics collection.
+- `ng config cli.analytics`: Enables or disables anonymous usage analytics.
+- `ng config cli.skipGit`: Configures whether to skip initializing a Git repository when creating a new project.
+- `ng config cli.packageManager`: Sets the package manager to use for installing dependencies.
+- `ng config cli.useGlobalScript`: Configures whether to use a globally installed Angular CLI script.
+- `ng config cli.skipTests`: Configures whether to skip generating spec files for new components/services.
+- `ng config cli.defaultStyleExt`: Sets the default style file extension (e.g., CSS, SCSS) for new components.
+- `ng config cli.defaultInlineStyle`: Configures whether to inline styles by default when generating new components.
+- `ng config cli.defaultInlineTemplate`: Configures whether to inline templates by default when generating new components.
+- `ng config cli.strict`: Enables or disables strict mode in the Angular project.
+- `ng config cli.version`: Displays the current version of the Angular CLI.
+- `ng config cli.workspaceVersion`: Displays the version of the Angular CLI used in the workspace.
+- `ng config cli.enableIvy`: Enables or disables the Ivy renderer in the Angular project.
+- `ng config cli.defaultProject`: Sets the default project in a multi-project workspace.
+- `ng config cli.experimentalIvy`: Enables experimental Ivy features in the Angular project.
+- `ng config cli.globalPackageName`: Sets the package name of the globally installed Angular CLI.
+- `ng config cli.global`: Configures global Angular CLI settings.
+- `ng config cli.legacyLayout`: Configures whether to use the legacy file layout for projects.
+- `ng config cli.style`: Sets the default style preprocessor for new projects.
+- `ng config cli.extraWebpackConfig`: Specifies additional webpack configuration options.
+- `ng config cli.prefix`: Sets the prefix to use for component selectors.
+- `ng config cli.i18nLocale`: Specifies the default locale to use for i18n.
+- `ng config cli.i18nMissingTranslation`: Configures the behavior for missing translations in i18n.
+- `ng config cli.verbose`: Enables verbose logging for Angular CLI commands.
+- `ng config cli.autoStart`: Configures whether to automatically start the dev server after ng serve.
+- `ng config cli.experimentalOptimizeCss`: Enables experimental CSS optimization in production builds.
+- `ng config cli.experimentalOptimizeJs`: Enables experimental JavaScript optimization in production builds.
+- `ng config cli.optimization`: Configures optimization options for production builds.
+- `ng config cli.sourceMap`: Configures whether to generate source maps for production builds.
+- `ng config cli.vendorChunk`: Configures whether to generate a separate vendor chunk in production builds.
+- `ng config cli.deleteOutputPath`: Configures whether to delete the output path before building.
+- `ng config cli.aot`: Configures whether to use Ahead-of-Time compilation for production builds.
+- `ng config cli.progress`: Configures whether to show progress during builds.
+- `ng config cli.showCircularDependencies`: Configures whether to show circular dependency warnings during builds.
+- `ng config cli.buildOptimizer`: Enables or disables the build optimizer.
+- `ng config cli.watch`: Configures whether to watch for file changes during builds.
+- `ng config cli.outputHashing`: Configures file hashing options for production builds.
+- `ng config cli.poll`: Configures polling interval for file changes during builds.
+- `ng config cli.bundler`: Sets the bundler to use for building the Angular application.
+- `ng config cli.assets`: Configures asset handling options for the Angular application.
+- `ng config cli.cssOptimize`: Configures CSS optimization options for production builds.
+- `ng config cli.minifyJs`: Configures JavaScript minification options for production builds.
+- `ng config cli.i18nFormat`: Sets the format to use for i18n message bundles.
+- `ng config cli.showCircularDependencies`: Configures whether to show circular dependency warnings during builds.
+- `ng config cli.watch`: Configures whether to watch for file changes during builds.
+- `ng config cli.outputHashing`: Configures file hashing options for production builds.
+- `ng config cli.poll`: Configures polling interval for file changes during builds.
+- `ng config cli.bundler`: Sets the bundler to use for building the Angular application.
+- `ng config cli.assets`: Configures asset handling options for the Angular application.
+- `ng config cli.cssOptimize`: Configures CSS optimization options for production builds.
+- `ng new <package-name>`: Creates a new Angular package within the workspace.
+- `ng generate library <library-name>`: Generates a new Angular library project within the workspace.
+- `ng build <library-name>`: Builds the specified Angular library project.
+- `ng test <library-name>`: Runs unit tests for the specified Angular library project.
+- `ng lint <library-name>`: Lints the files of the specified Angular library project.
+- `ng update <library-name>`: Updates the dependencies of the specified Angular library project to their latest versions.
+- `ng add <package-name>`: Adds a new package to the Angular project.
+- `ng update <package-name>`: Updates the specified package to the latest version.
+- `ng config cli.defaultCollection <collection-name>`: Sets the default schematics collection for generating components, services, etc., within the package.
+- `ng generate <collection-name>:<schematic-name>`: Generates components, services, directives, pipes, etc., using a specific schematics collection within the package.
+- `ng build --prod <library-name>`: Builds the specified Angular library project for production.
+- `ng lint <library-name> --fix`: Fixes linting errors automatically in the specified Angular library project.
+- `ng test <library-name> --watch`: Runs unit tests for the specified Angular library project in watch mode.
+- `ng update --all`: Updates all packages and dependencies within the Angular project to their latest versions.
+- `ng config cli.defaultProject <project-name>`: Sets the default project within the workspace, including Angular library projects.
